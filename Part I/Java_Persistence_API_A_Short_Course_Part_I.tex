@@ -1,0 +1,110 @@
+\documentclass[12pt,a4paper]{article}
+
+%package for changing line spacing through the document.
+\usepackage{setspace}
+\onehalfspacing
+
+\begin{document}
+
+\title{\textbf{Java Persistence API: \\ A Short Course - Part I}}
+
+\author{\textbf{Jeferson L. R. Souza} \\ 
+(a.k.a jefecomp) \\
+\textbf{\texttt{jefersonsouza@boldint.com}}}
+
+\date{Last Update: \today}
+
+\maketitle
+
+\section{General Description}
+
+This is the first part of a short course addressing the details of the Java Persistence API (JPA), a known Java abstraction which provides a powerful set of operations for transparent persistence of object data models on both relational and non-relational databases. The goal of the \textit{Java Persistence API: A Short Course - Part I} is to present the foundations of the API, introducing the concept of object-relational mapping and the JPA use together with relational databases.
+
+References to additional documentation addressing the topics of this course are provided. In addition, all the source code utilised within this course will be available for download and further analysis.
+
+\section{Pre-Requisites and Duration}
+
+The mandatory pre-requisite to follow this tutorial is good knowledge of the Java language. The additional list of pre-requisites is presented as follows:
+
+\begin{itemize}
+\itemsep 5pt
+\item A computer with the java development kit (JDK) version 7 or later installed;
+
+\item Whether a text editor (e.g. \textit{Emacs}) or an Integrated Development Environment (IDE)\textemdash e.g. \textit{Eclipse}, \textit{NetBeans}, \textit{IntelliJ}, \ldots\textemdash of your preference, for Java code reading and development;
+
+\item Whether a \textit{Git} installation, or the use of an IDE which support access to a \textit{Git} repository\textemdash Eclipse IDE with \textit{EGit} plugin.
+
+\end{itemize}
+
+The duration of the \textit{Java Persistence API: A Short Course - Part I} is initially planned to take \textbf{up to 4 hours}, formatted on two sessions of 2 hours each.
+
+\section{Outline}
+
+The  \textit{Java Persistence API: A Short Course - Part I} includes the following topics:
+
+\begin{enumerate}
+\item What is the \textit{Java Persistence API}?;
+
+\item Advantages of \textit{JPA} versus Pure \textit{JDBC};
+
+\item Concepts of Object-Relational Mapping;
+
+\item The Persistence Provider Abstraction;
+
+\item Oops, I have just got here: A Hello World JPA;
+
+\item The Configuration File and Common Parameters;
+
+\item Essential Mapping Annotations;
+
+\item Understanding Persistence Sessions;
+
+\item Hands-on: Creating an object data model for a small library;
+
+\item Remarks \& Conclusion.
+
+\end{enumerate}
+
+\subsection{Summary of the content addressed by each topic}
+
+\subsubsection{What is the Java Persistence API?}
+
+In this topic it is explained what the Java Persistence API is, and why it has been changed the way object-oriented models are persisted, providing an intuitive and transparent translation layer to different types of databases.
+
+\subsubsection{Advantages of JPA versus Pure JDBC}
+
+In this topic the advantages of JPA versus Pure JDBC are presented, which includes writing less code for persisting data, no need of using Structure Query Language (SQL) directly, and automatic data translation between database and the application.
+
+\subsection{Concepts of Object-Relational Mapping}
+
+In this topic we present the main concepts of object-relational mapping, focusing on the differences among object-oriented and relational data design.
+
+\subsection{The Role of the Persistence Provider}
+
+The persistence provider is the central component on all the abstraction offered by the JPA specification, and this topic explains details about its role. 
+
+\subsection{Oops, I have just got here! A Hello World JPA}
+
+In this topic a Hello World example is presented, utilising a minimal configuration needed to  start using JPA within Java projects.
+
+\subsection{The Configuration File and Common Parameters}
+
+The structure of the configuration file and common parameters are detailed in this topic. 
+
+\subsection{Essential Mapping Annotations}
+
+This topic covers the essential annotations which are part of the JPA specification such as \textit{@Entity}, \textit{@Id}, \textit{@Column}, \textit{@OneToMany}, \textit{@ManyToOne}, and \textit{@ManyToMany}.
+
+\subsection{Understanding Persistence Sessions}
+
+In this topic the concept of Persistence Session is presented, highlighting the different ``design patterns" existent for establishing persistence sessions within Java applications.
+
+\subsection{Hands-on: Creating an object data model for a small library}
+
+In this topic an object-oriented data model will be created for a small library, putting in practice all the topics addressed by this course.
+
+\subsection{Remarks \& Conclusion}
+
+At the end we summarise all content presented in this tutorial, listing some references for further consult.
+
+\end{document}
