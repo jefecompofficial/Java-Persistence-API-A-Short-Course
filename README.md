@@ -1,0 +1,2 @@
+# Java Persistence API - A Short Course
+This repository stores all the material related to the course "Java Persistence API - A Short Course" prepared by myself. The material is free of use if you do not omit the proper credits. All the material here is under the BSD-3 license (LICENSE file).
