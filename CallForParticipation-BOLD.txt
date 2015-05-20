@@ -1,0 +1,45 @@
+Descrição do workshop
+
+Programas em Java e estas interessado em aprender um bocado sobre persistência de objetos? Então esse workshop é para ti!
+
+Neste workshop iremos desvendar alguns dos secretos da Java Persistence API (a.k.a JPA), introduzindo esse potente framework que auxilia o desenho e implementação de camadas de armazenamento totalmente orientadas a objetos. O workshop está dividido em duas partes. Na primeira parte iremos aprender o que é a Java Persistence API, quais as vantagens e diferenças para outro framework da linguagem Java, o Java DataBase Connectivity (JDBC), e como realizar uma modelagem orientada a objetos que pode ser armazenada diretamente em uma base de dados. Na segunda parte vamos entrar em mais detalhes sobre a JPA, incluindo informações sobre suas configurações, as principais anotações utilizadas, o conceito de Sessão, e a implementação de um modelo de dados orientado a objetos para uma pequena biblioteca digital.
+
+Ao final do workshop esperamos que tenhas absorvido conhecimento necessário para continuar desvendando mais segredos da JPA, e utilizar esses conhecimentos no teu ambiente de trabalho.
+
+
+Requisitos
+
+O requisito essencial é a motivação e vontade de aprender. Além disso também é necessário:
+
+ - Um computador portátil com o Java Development Kit (JDK) instalado (versão 7 ou superior);
+
+ - Um editor de texto (ex. Emacs) ou um ambiente de desenvolvimento tal como o Eclipse (preferencial), NetBeans, IntelliJ, entre outros;
+
+ - Software para aceder a repositórios git. Ambientes de desenvolvimento tal como o Eclipse incluem extensões para isso. Entretanto, também é possível fazer download do software diretamente da página do projeto git (http://www.git-scm.com/).
+
+
+Agenda do Workshop
+
+Dia 15 de Junho (19h as 21h)
+
+ - O que é a Java Persistence API?;
+
+ - Vantagens do uso da  JPA comparado com JDBC;
+
+ - Conceitos de Mapeamento Objeto-Relacional;
+
+ - Provedores de Persistência: Uma abstração;
+
+ - Oops, Acabei de chegar: Hello World JPA;
+
+Dia 22 de Junho (19h as 21h)
+
+ - Detalhes de configuração da JPA;
+
+ - As anotações fundamentais da JPA;
+
+ - Compreendendo o conceito de Sessão;
+
+ - Prática: Criar um modelo orientado a objetos para uma pequena biblioteca digital;
+
+ - Notas e conclusão do workshop.
