@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   sodipodi:docname="oneToMany.svg"
+   viewBox="0 0 696.87668 283.14507"
+   sodipodi:version="0.32"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:version="0.91 r13725"
+   version="1.1"
+   width="696.87671"
+   height="283.14508">
+  <defs
+     id="defs4">
+    <marker
+       id="DiamondM"
+       refY="0"
+       refX="0"
+       style="overflow:visible"
+       orient="auto"
+       inkscape:stockid="DiamondM">
+      <path
+         id="path4259"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         d="M 0,-7.0711 -7.0711,0 0,7.0711 7.071,0 0,-7.0711 Z"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <filter
+       id="filter6189"
+       inkscape:collect="always">
+      <feGaussianBlur
+         id="feGaussianBlur6191"
+         stdDeviation="3.5096484"
+         inkscape:collect="always" />
+    </filter>
+    <linearGradient
+       id="linearGradient8149">
+      <stop
+         id="stop8151"
+         style="stop-color:#ffffff"
+         offset="0" />
+      <stop
+         id="stop8153"
+         style="stop-color:#6cd8d8"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient7172">
+      <stop
+         id="stop7174"
+         style="stop-color:#fffff0"
+         offset="0" />
+      <stop
+         id="stop7176"
+         style="stop-color:#f9f973"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient10124">
+      <stop
+         id="stop10126"
+         style="stop-color:#000032"
+         offset="0" />
+      <stop
+         id="stop10128"
+         style="stop-color:#212190"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5411"
+       y2="378.45001"
+       xlink:href="#linearGradient10124"
+       gradientUnits="userSpaceOnUse"
+       x2="121.45"
+       gradientTransform="matrix(1.3487505,0,0,1.1115748,-772.98595,-257.53297)"
+       y1="602.63"
+       x1="193.02"
+       inkscape:collect="always" />
+    <radialGradient
+       id="radialGradient5419"
+       xlink:href="#linearGradient7172"
+       gradientUnits="userSpaceOnUse"
+       cy="447.95999"
+       cx="107.58"
+       gradientTransform="matrix(2.7023326,0,0,2.375985,-917.3301,-832.06786)"
+       r="88.008003"
+       inkscape:collect="always" />
+    <radialGradient
+       id="radialGradient6390"
+       xlink:href="#linearGradient8149"
+       gradientUnits="userSpaceOnUse"
+       cy="436.19"
+       cx="113.01"
+       gradientTransform="matrix(2.4454331,0,0,1.1736084,-896.95797,-296.14905)"
+       r="88.234001"
+       inkscape:collect="always" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10124"
+       id="linearGradient3602"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3487505,0,0,1.1115748,-372.98595,-257.53297)"
+       x1="193.02"
+       y1="602.63"
+       x2="121.45"
+       y2="378.45001" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7172"
+       id="radialGradient3604"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.7023326,0,0,2.375985,-517.3301,-832.06786)"
+       cx="107.58"
+       cy="447.95999"
+       r="88.008003" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8149"
+       id="radialGradient3606"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.4454331,0,0,1.1736084,-496.95797,-296.14905)"
+       cx="113.01"
+       cy="436.19"
+       r="88.234001" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     bordercolor="#666666"
+     inkscape:pageshadow="2"
+     guidetolerance="10"
+     pagecolor="#ffffff"
+     gridtolerance="10000"
+     inkscape:window-height="1043"
+     inkscape:zoom="1.4"
+     objecttolerance="10"
+     showgrid="false"
+     borderopacity="1.0"
+     inkscape:current-layer="layer1"
+     inkscape:cx="353.02149"
+     inkscape:cy="288.00022"
+     inkscape:window-y="37"
+     inkscape:window-x="1366"
+     inkscape:window-width="1920"
+     inkscape:pageopacity="0.0"
+     inkscape:document-units="px"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-maximized="0" />
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     transform="translate(711.07836,-155.92605)">
+    <rect
+       id="rect5218"
+       style="fill:#000000;fill-opacity:0.58824002;filter:url(#filter6189)"
+       ry="26.482"
+       height="218.12"
+       width="182.98"
+       y="175.40286"
+       x="-689.73785"
+       transform="matrix(1.3520452,0,0,1.0817633,246.21812,-10.222913)" />
+    <text
+       id="text5112"
+       style="font-size:12px;line-height:125%;font-family:Arial;fill:#000000"
+       xml:space="preserve"
+       y="296.33725"
+       x="-327.88773"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan5122"
+         sodipodi:role="line"
+         x="-327.88773"
+         y="296.33725">0...*</tspan></text>
+    <text
+       id="text5136"
+       style="font-size:12px;line-height:125%;font-family:Arial;fill:#000000"
+       xml:space="preserve"
+       y="297.03122"
+       x="-434.40741"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan5138"
+         sodipodi:role="line"
+         x="-434.40741"
+         y="297.03122">1</tspan></text>
+    <text
+       id="text18594"
+       style="font-size:14px;line-height:100%;font-family:Tahoma;text-align:center;text-anchor:middle;fill:#000000"
+       xml:space="preserve"
+       y="298.05838"
+       x="-375.55258"
+       sodipodi:linespacing="100%"><tspan
+         id="tspan18596"
+         sodipodi:role="line"
+         x="-375.55258"
+         y="298.05838">HAS</tspan></text>
+    <rect
+       id="rect18622"
+       style="fill:url(#linearGradient5411)"
+       ry="29.436726"
+       height="242.4567"
+       width="246.79436"
+       y="169.87866"
+       x="-692.48987" />
+    <rect
+       id="rect18624"
+       style="fill:url(#radialGradient5419)"
+       ry="24.352654"
+       height="226.18588"
+       width="236.18877"
+       y="178.21251"
+       x="-685.98029" />
+    <rect
+       id="rect18626"
+       style="fill:url(#radialGradient6390);stroke:#000000;stroke-width:0.83781755;stroke-opacity:0.58824002"
+       ry="0"
+       height="77.265045"
+       width="237.9767"
+       y="201.61176"
+       x="-687.55798" />
+    <text
+       id="text18628"
+       style="font-size:14px;line-height:100%;font-family:Tahoma;text-align:center;text-anchor:middle;fill:#000000"
+       xml:space="preserve"
+       y="192.81155"
+       x="-566.17773"
+       sodipodi:linespacing="100%"><tspan
+         id="tspan18630"
+         sodipodi:role="line"
+         x="-566.17773"
+         y="192.81155">Person</tspan></text>
+    <text
+       id="text18632"
+       style="font-size:16.31513596px;line-height:100%;font-family:Tahoma;fill:#000000"
+       xml:space="preserve"
+       y="254.95892"
+       x="-575.60095"
+       sodipodi:linespacing="100%"
+       transform="scale(1.16716,0.85678057)"><tspan
+         id="tspan18634"
+         sodipodi:role="line"
+         x="-575.60095"
+         y="254.95892"
+         style="font-size:12.5px">Id:Long</tspan><tspan
+         id="tspan18636"
+         sodipodi:role="line"
+         x="-575.60095"
+         y="267.45892"
+         style="font-size:12.5px">addressSet: Set&lt;Address&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="-575.60095"
+         y="279.95892"
+         id="tspan3442"
+         style="font-size:12.5px">name: String</tspan><tspan
+         sodipodi:role="line"
+         x="-575.60095"
+         y="292.45892"
+         id="tspan3444"
+         style="font-size:12.5px">surname:String</tspan></text>
+    <text
+       id="text3158"
+       style="font-size:14px;line-height:100%;font-family:Tahoma;fill:#000000"
+       xml:space="preserve"
+       y="302.84378"
+       x="-676.73938"
+       sodipodi:linespacing="100%"><tspan
+         id="tspan3160"
+         sodipodi:role="line"
+         x="-676.73938"
+         y="302.84378"
+         style="font-size:10px">getId():Long</tspan></text>
+    <path
+       id="path4371"
+       inkscape:connector-type="polyline"
+       style="fill:none;stroke:#000000;stroke-width:1px;marker-start:url(#DiamondM);marker-end:url(#DiamondM)"
+       d="m -434.43,302.65143 130,0"
+       inkscape:connector-curvature="0" />
+    <text
+       sodipodi:linespacing="100%"
+       x="-676.73938"
+       y="326.84378"
+       xml:space="preserve"
+       style="font-size:14px;line-height:100%;font-family:Tahoma;fill:#000000"
+       id="text3456"><tspan
+         y="326.84378"
+         x="-676.73938"
+         sodipodi:role="line"
+         id="tspan3458"
+         style="font-size:10px">setId(Long id):void</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       x="-676.73938"
+       y="348.84378"
+       xml:space="preserve"
+       style="font-size:14px;line-height:100%;font-family:Tahoma;fill:#000000"
+       id="text3460"><tspan
+         y="348.84378"
+         x="-676.73938"
+         sodipodi:role="line"
+         id="tspan3462"
+         style="font-size:10px">getAddressSet():Set&lt;Address&gt;</tspan></text>
+    <text
+       id="text3464"
+       style="font-size:14px;line-height:100%;font-family:Tahoma;fill:#000000"
+       xml:space="preserve"
+       y="372.84378"
+       x="-676.73938"
+       sodipodi:linespacing="100%"><tspan
+         id="tspan3466"
+         sodipodi:role="line"
+         x="-676.73938"
+         y="372.84378"
+         style="font-size:10px">setAddressSet(Set&lt;Address&gt; addrSet):void</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       x="-592.73938"
+       y="392.84378"
+       xml:space="preserve"
+       style="font-size:14px;line-height:100%;font-family:Tahoma;fill:#000000"
+       id="text3556"><tspan
+         y="392.84378"
+         x="-592.73938"
+         sodipodi:role="line"
+         id="tspan3558">. . .</tspan></text>
+    <rect
+       transform="matrix(1.3520452,0,0,1.0817633,646.21812,-10.222913)"
+       x="-689.73785"
+       y="175.40286"
+       width="182.98"
+       height="218.12"
+       ry="26.482"
+       style="fill:#000000;fill-opacity:0.58824002;filter:url(#filter6189)"
+       id="rect3560" />
+    <rect
+       x="-292.48987"
+       y="169.87866"
+       width="246.79436"
+       height="242.4567"
+       ry="29.436726"
+       style="fill:url(#linearGradient3602)"
+       id="rect3562" />
+    <rect
+       x="-285.98029"
+       y="178.21251"
+       width="236.18877"
+       height="226.18588"
+       ry="24.352654"
+       style="fill:url(#radialGradient3604)"
+       id="rect3564" />
+    <rect
+       x="-287.55798"
+       y="201.61176"
+       width="237.9767"
+       height="77.265045"
+       ry="0"
+       style="fill:url(#radialGradient3606);stroke:#000000;stroke-width:0.83781755;stroke-opacity:0.58824002"
+       id="rect3566" />
+    <text
+       sodipodi:linespacing="100%"
+       x="-166.17773"
+       y="192.81155"
+       xml:space="preserve"
+       style="font-size:14px;line-height:100%;font-family:Tahoma;text-align:center;text-anchor:middle;fill:#000000"
+       id="text3568"><tspan
+         y="192.81155"
+         x="-166.17773"
+         sodipodi:role="line"
+         id="tspan3570">Address</tspan></text>
+    <text
+       transform="scale(1.16716,0.85678057)"
+       sodipodi:linespacing="100%"
+       x="-231.17502"
+       y="264.2962"
+       xml:space="preserve"
+       style="font-size:16.31513596px;line-height:100%;font-family:Tahoma;fill:#000000"
+       id="text3572"><tspan
+         y="264.2962"
+         x="-231.17502"
+         sodipodi:role="line"
+         id="tspan3574"
+         style="font-size:12.49999994px">Id:Long</tspan><tspan
+         y="280.61133"
+         x="-231.17502"
+         sodipodi:role="line"
+         id="tspan3576"
+         style="font-size:12.49999994px">streeName: String</tspan><tspan
+         id="tspan3578"
+         y="296.92648"
+         x="-231.17502"
+         sodipodi:role="line"
+         style="font-size:12.49999994px">zipcode: String</tspan><tspan
+         id="tspan3580"
+         y="313.24161"
+         x="-231.17502"
+         sodipodi:role="line" /></text>
+    <text
+       sodipodi:linespacing="100%"
+       x="-276.73938"
+       y="302.84378"
+       xml:space="preserve"
+       style="font-size:14px;line-height:100%;font-family:Tahoma;fill:#000000"
+       id="text3582"><tspan
+         y="302.84378"
+         x="-276.73938"
+         sodipodi:role="line"
+         id="tspan3584"
+         style="font-size:10px">getId():Long</tspan></text>
+    <text
+       id="text3586"
+       style="font-size:14px;line-height:100%;font-family:Tahoma;fill:#000000"
+       xml:space="preserve"
+       y="326.84378"
+       x="-276.73938"
+       sodipodi:linespacing="100%"><tspan
+         id="tspan3588"
+         sodipodi:role="line"
+         x="-276.73938"
+         y="326.84378"
+         style="font-size:10px">setId(Long id):void</tspan></text>
+    <text
+       id="text3590"
+       style="font-size:14px;line-height:100%;font-family:Tahoma;fill:#000000"
+       xml:space="preserve"
+       y="348.84378"
+       x="-276.73938"
+       sodipodi:linespacing="100%"><tspan
+         id="tspan3592"
+         sodipodi:role="line"
+         x="-276.73938"
+         y="348.84378"
+         style="font-size:10px">getStreetName():String</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       x="-276.73938"
+       y="372.84378"
+       xml:space="preserve"
+       style="font-size:14px;line-height:100%;font-family:Tahoma;fill:#000000"
+       id="text3594"><tspan
+         y="372.84378"
+         x="-276.73938"
+         sodipodi:role="line"
+         id="tspan3596"
+         style="font-size:10px">setStreetName(String str):void</tspan></text>
+    <text
+       id="text3598"
+       style="font-size:14px;line-height:100%;font-family:Tahoma;fill:#000000"
+       xml:space="preserve"
+       y="392.84378"
+       x="-192.73938"
+       sodipodi:linespacing="100%"><tspan
+         id="tspan3600"
+         sodipodi:role="line"
+         x="-192.73938"
+         y="392.84378">. . .</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       x="-457.83597"
+       y="49.888363"
+       xml:space="preserve"
+       style="font-size:12px;line-height:125%;font-family:Arial;fill:#000000"
+       id="text3608"><tspan
+         y="49.888363"
+         x="-457.83597"
+         sodipodi:role="line"
+         id="tspan3610">1</tspan></text>
+  </g>
+  <metadata
+     id="metadata84">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title />
+        <dc:date>2007-09-06T05:08:16</dc:date>
+        <dc:description>A collection of graphics for drawing UMLs/relational database models.</dc:description>
+        <dc:source>https://openclipart.org/detail/5275/database-diagram-uml-relational-database-entity-relationship-model-by-cfry</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>cfry</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>database</rdf:li>
+            <rdf:li>database diagram</rdf:li>
+            <rdf:li>diagram</rdf:li>
+            <rdf:li>entity</rdf:li>
+            <rdf:li>entity relationship model</rdf:li>
+            <rdf:li>erm</rdf:li>
+            <rdf:li>relational database</rdf:li>
+            <rdf:li>relationship</rdf:li>
+            <rdf:li>uml</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

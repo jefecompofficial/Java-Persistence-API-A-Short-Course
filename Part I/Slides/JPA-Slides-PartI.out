@@ -1,0 +1,17 @@
+\BOOKMARK [2][]{Outline0.1}{JPA\040Design}{}% 1
+\BOOKMARK [3][]{Outline0.1.1.2}{What\040is\040the\040Java\040Persistence\040API?}{Outline0.1}% 2
+\BOOKMARK [3][]{Outline0.1.2.3}{JPA\040features}{Outline0.1}% 3
+\BOOKMARK [2][]{Outline0.2}{JPA\040Architecture}{}% 4
+\BOOKMARK [3][]{Outline0.2.1.4}{Main\040Components}{Outline0.2}% 5
+\BOOKMARK [2][]{Outline0.3}{Pure\040JDBC\040vs\040JPA}{}% 6
+\BOOKMARK [3][]{Outline0.3.1.16}{Pure\040JDBC\040Model}{Outline0.3}% 7
+\BOOKMARK [2][]{Outline0.4}{ORM}{}% 8
+\BOOKMARK [3][]{Outline0.4.1.20}{Mapping\040Strategies}{Outline0.4}% 9
+\BOOKMARK [3][]{Outline0.4.2.21}{Mapping\040Strategies}{Outline0.4}% 10
+\BOOKMARK [3][]{Outline0.4.3.24}{Relationship\040Between\040Entities}{Outline0.4}% 11
+\BOOKMARK [3][]{Outline0.4.4.25}{Association}{Outline0.4}% 12
+\BOOKMARK [2][]{Outline0.5}{Persistence\040Provider}{}% 13
+\BOOKMARK [3][]{Outline0.5.1.30}{Hibernate:\040The\040Entrepreneur}{Outline0.5}% 14
+\BOOKMARK [3][]{Outline0.5.2.31}{Eclipselink:\040The\040reference\040implementation}{Outline0.5}% 15
+\BOOKMARK [2][]{Outline0.6}{Hello\040World\040JPA}{}% 16
+\BOOKMARK [3][]{Outline0.6.1.32}{Example\040of\040a\040JPA\040application}{Outline0.6}% 17

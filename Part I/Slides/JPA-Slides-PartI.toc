@@ -1,0 +1,26 @@
+\beamer@endinputifotherversion {3.33pt}
+\beamer@sectionintoc {1}{\scshape JPA Design}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{What is the Java Persistence API?}{2}{0}{1}
+\beamer@subsectionintoc {1}{2}{JPA features}{3}{0}{1}
+\beamer@sectionintoc {2}{JPA Architecture}{4}{0}{2}
+\beamer@subsectionintoc {2}{1}{Main Components}{4}{0}{2}
+\beamer@subsubsectionintoc {2}{1}{1}{Entity Manager}{5}{0}{2}
+\beamer@subsubsectionintoc {2}{1}{2}{Entity Manager}{6}{0}{2}
+\beamer@subsubsectionintoc {2}{1}{3}{Metadata Annotations}{7}{0}{2}
+\beamer@subsubsectionintoc {2}{1}{4}{Metadata Annotations}{8}{0}{2}
+\beamer@subsubsectionintoc {2}{1}{5}{Query Language}{11}{0}{2}
+\beamer@subsubsectionintoc {2}{1}{6}{Query Processor}{13}{0}{2}
+\beamer@subsubsectionintoc {2}{1}{7}{Query Translator}{14}{0}{2}
+\beamer@sectionintoc {3}{Pure JDBC vs JPA}{16}{0}{3}
+\beamer@subsectionintoc {3}{1}{Pure JDBC Model}{16}{0}{3}
+\beamer@subsubsectionintoc {3}{1}{1}{JPA Model}{17}{0}{3}
+\beamer@sectionintoc {4}{\scshape ORM}{19}{0}{4}
+\beamer@subsectionintoc {4}{1}{\scshape Mapping Strategies}{20}{0}{4}
+\beamer@subsectionintoc {4}{2}{\scshape Mapping Strategies}{21}{0}{4}
+\beamer@subsectionintoc {4}{3}{\scshape Relationship Between Entities}{24}{0}{4}
+\beamer@subsectionintoc {4}{4}{\scshape Association}{25}{0}{4}
+\beamer@sectionintoc {5}{\scshape Persistence Provider}{29}{0}{5}
+\beamer@subsectionintoc {5}{1}{Hibernate: The Entrepreneur}{30}{0}{5}
+\beamer@subsectionintoc {5}{2}{Eclipselink: The reference implementation}{31}{0}{5}
+\beamer@sectionintoc {6}{\scshape Hello World JPA}{32}{0}{6}
+\beamer@subsectionintoc {6}{1}{Example of a JPA application}{32}{0}{6}
