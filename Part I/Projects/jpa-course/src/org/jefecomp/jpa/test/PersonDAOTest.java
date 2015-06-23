@@ -14,6 +14,7 @@ import javax.persistence.Query;
 
 import org.jefecomp.jpa.dao.PersistenceUnitEnum;
 import org.jefecomp.jpa.dao.impl.PersonDAO;
+import org.jefecomp.jpa.entities.Address;
 import org.jefecomp.jpa.entities.Person;
 import org.junit.After;
 import org.junit.Before;
@@ -23,7 +24,7 @@ import org.junit.Test;
  * @author jefecomp
  *
  */
-public class PersonTest {
+public class PersonDAOTest {
 
 	private PersonDAO personDAO;
 	
@@ -53,6 +54,13 @@ public class PersonTest {
 		
 		person.setName("Jeferson");
 		person.setSurname("Souza");
+		
+		Address address = new Address();
+		
+		address.setCity("Lisboa");
+		address.setState("SC");
+		
+		person.setAddress(address);
 		
 		assertTrue(this.personDAO.persist(person));
 	}
@@ -94,6 +102,7 @@ public class PersonTest {
 		System.out.println("ID: "+p.getId());
 		System.out.println("NAME:"+p.getName());
 		System.out.println("SURNAME:"+p.getSurname());
+		System.out.println("ADDRESS:"+p.getAddress());
 	}
 		
 		

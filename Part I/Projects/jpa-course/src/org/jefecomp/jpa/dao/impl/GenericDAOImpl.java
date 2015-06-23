@@ -6,6 +6,7 @@ package org.jefecomp.jpa.dao.impl;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
+import javax.persistence.Query;
 
 import org.jefecomp.jpa.dao.GenericDAO;
 import org.jefecomp.jpa.dao.PersistenceUnitEnum;
@@ -80,6 +81,15 @@ public abstract class GenericDAOImpl<T> implements GenericDAO<T> {
 		this.closeSession();
 		
 		return result;
+	}
+	
+	public void createAllNamedQueries(){
+		
+		EntityManager em = this.emFactory.createEntityManager();
+
+		Query query = em.createNamedQuery("findAllAddress");
+		
+		
 	}
 	
 	
