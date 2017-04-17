@@ -15,3 +15,6 @@
 
 #Ignore changes in nav files
 *.nav
+
+#Ignore database generated files
+db-jpa-project/
