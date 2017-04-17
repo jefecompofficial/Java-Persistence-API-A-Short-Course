@@ -1,0 +1,17 @@
+#Ignore changes in backup files
+*~
+
+#Ignore changes in auxiliaries files
+*.aux
+
+#Ignore changes in log files
+*.log
+
+#Ignore changes in toc files
+*.toc
+
+#Ignore changes in synctex.gz files
+*.synctex.gz
+
+#Ignore changes in nav files
+*.nav
