@@ -16,5 +16,11 @@
 #Ignore changes in nav files
 *.nav
 
+#Ignore changes in snm files
+*.snm
+
+#Ignore changes in out files
+*.out
+
 #Ignore database generated files
 db-jpa-project/
