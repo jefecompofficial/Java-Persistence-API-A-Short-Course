@@ -22,8 +22,11 @@
 #Ignore changes in out files
 *.out
 
-#Ignore database generated files
+#Ignore changes in database generated files within db-jpa-project directory
 db-jpa-project/
 
-#Ignore settings files
+#Ignore changes in files within -settings directory
 .settings/
+
+#Ignore changes in .project file
+.project
