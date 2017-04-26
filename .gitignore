@@ -24,3 +24,6 @@
 
 #Ignore database generated files
 db-jpa-project/
+
+#Ignore settings files
+.settings/
