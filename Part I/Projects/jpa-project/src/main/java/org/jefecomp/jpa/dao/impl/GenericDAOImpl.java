@@ -35,7 +35,7 @@ public abstract class GenericDAOImpl<T> implements GenericDAO<T> {
 	}
 	
 	public GenericDAOImpl() {
-		// TODO Auto-generated constructor stub
+		
 		this.emFactory = Persistence.createEntityManagerFactory(PersistenceUnitEnum.JPA_COURSE_PU.getPersistenceUnitName());
 		
 		this.localStorage = new ThreadLocal<EntityManager>();
@@ -43,7 +43,7 @@ public abstract class GenericDAOImpl<T> implements GenericDAO<T> {
 	
 	@Override
 	public boolean persist(T entity) {
-		// TODO Auto-generated method stub
+		
 		this.openSession();
 		
 		this.localStorage.get().persist(entity);
@@ -53,7 +53,7 @@ public abstract class GenericDAOImpl<T> implements GenericDAO<T> {
 
 	@Override
 	public boolean update(T entity) {
-		// TODO Auto-generated method stub
+		
 		this.openSession();
 		
 		this.localStorage.get().merge(entity);
@@ -64,7 +64,7 @@ public abstract class GenericDAOImpl<T> implements GenericDAO<T> {
 
 	@Override
 	public boolean delete(T entity) {
-		// TODO Auto-generated method stub
+		
 		this.openSession();
 		
 		this.localStorage.get().remove(entity);
@@ -75,7 +75,7 @@ public abstract class GenericDAOImpl<T> implements GenericDAO<T> {
 
 	@Override
 	public <K> T findByPrimaryKey(Class<T> clazz, K primaryKey) {
-		// TODO Auto-generated method stub
+		
 		this.openSession();
 		T result = this.localStorage.get().find(clazz, primaryKey);
 		this.closeSession();
@@ -91,7 +91,4 @@ public abstract class GenericDAOImpl<T> implements GenericDAO<T> {
 		
 		
 	}
-	
-	
-
 }

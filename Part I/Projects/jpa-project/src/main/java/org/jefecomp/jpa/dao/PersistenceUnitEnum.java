@@ -14,7 +14,6 @@ public enum PersistenceUnitEnum {
 	private String persistenceUnitName;
 	
 	private PersistenceUnitEnum(String persistenceUnitName) {
-		// TODO Auto-generated constructor stub
 		
 		this.persistenceUnitName = persistenceUnitName;
 	}
