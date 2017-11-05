@@ -3,7 +3,7 @@
  */
 package org.jefecomp.jpa.test;
 
-import static org.junit.Assert.*;
+import org.junit.Assert;
 
 import java.util.HashSet;
 import java.util.List;
@@ -31,110 +31,114 @@ import org.junit.Test;
  */
 public class BookDAOTest {
 
-	private BookDAO bookDAO;
+    private BookDAO bookDAO;
 	
-	private AuthorDAO authorDAO;
+    private AuthorDAO authorDAO;
 	
-	/**
-	 * @throws java.lang.Exception
-	 */
-	@Before
-	public void setUp() throws Exception {
-		this.bookDAO = new BookDAO();
-		this.authorDAO = new AuthorDAO();
-	}
+    /**
+     * @throws java.lang.Exception
+     */
+    @Before
+    public void setUp() throws Exception {
+	this.bookDAO = new BookDAO();
+	this.authorDAO = new AuthorDAO();
 
-	/**
-	 * @throws java.lang.Exception
-	 */
-	@After
-	public void tearDown() throws Exception {
-		this.bookDAO = null;
-	}
+	this.bookDAO.deleteAll(Book.class);
+	this.authorDAO.deleteAll(Author.class);
+    }
 
-	/**
-	 * Test method for {@link org.jefecomp.jpa.dao.impl.GenericDAOImpl#persist(java.lang.Object)}.
-	 */
-	@Test
-	public void testPersist() {
-		
-		Book book = new Book();
-		Set<Author> authors = new HashSet<>();
-		book.setTitle("Introduction to Algorithms");
-		book.setEdition("3rd");
-		
-		Publisher p = new Publisher();
-		
-		Set<Book> books = new HashSet<>();
-		books.add(book);
-		
-		p.setName("Cambridge Press");
-		p.setBooks(books);
-		
-		book.setPublisher(p);
-		
-		
-		
-		Author author = new Author();
-		author.setName("Thomas");
-		author.setSurname("H. Cormen");
-		
-		books = new HashSet<>();
-		books.add(book);
-		author.setBooks(books);
-		
-		authors.add(author);
-		
-		author = new Author();
-		
-		author.setName("Charles");
-		author.setSurname("E. Leiserson");
-		books = new HashSet<>();
-		books.add(book);
-		author.setBooks(books);
-		
-		authors.add(author);
-		
-		author = new Author();
-		
-		author.setName("Ronald");
-		author.setSurname("L. Rivest");
-		books = new HashSet<>();
-		books.add(book);
-		author.setBooks(books);
-		
-		authors.add(author);
-		
-		author = new Author();
-		
-		author.setName("Clifford");
-		author.setSurname("Stein");
-		books = new HashSet<>();
-		books.add(book);
-		author.setBooks(books);
-		
-		authors.add(author);
+    /**
+     * @throws java.lang.Exception
+     */
+    @After
+    public void tearDown() throws Exception {
+	this.bookDAO.deleteAll(Book.class);
+	this.authorDAO.deleteAll(Author.class);
+	this.bookDAO = null;
+	this.authorDAO = null;
+    }
 
-		book.setAuthors(authors);
+    /**
+     * Test method for {@link org.jefecomp.jpa.dao.impl.GenericDAOImpl#persist(java.lang.Object)}.
+     */
+    @Test
+    public void testPersist() {
 		
-		assertTrue(bookDAO.persist(book));
+	Book book = new Book();
+	Set<Author> authors = new HashSet<>();
+	book.setTitle("Introduction to Algorithms");
+	book.setEdition("3rd");
 		
-	}
+	Publisher p = new Publisher();
+		
+	Set<Book> books = new HashSet<>();
+	books.add(book);
+		
+	p.setName("Cambridge Press");
+	p.setBooks(books);
+		
+	book.setPublisher(p);
+				
+	Author author = new Author();
+	author.setName("Thomas");
+	author.setSurname("H. Cormen");
+		
+	books = new HashSet<>();
+	books.add(book);
+	author.setBooks(books);
+		
+	authors.add(author);
+		
+	author = new Author();
+		
+	author.setName("Charles");
+	author.setSurname("E. Leiserson");
+	books = new HashSet<>();
+	books.add(book);
+	author.setBooks(books);
+		
+	authors.add(author);
+		
+	author = new Author();
+		
+	author.setName("Ronald");
+	author.setSurname("L. Rivest");
+	books = new HashSet<>();
+	books.add(book);
+	author.setBooks(books);
+		
+	authors.add(author);
+		
+	author = new Author();
+		
+	author.setName("Clifford");
+	author.setSurname("Stein");
+	books = new HashSet<>();
+	books.add(book);
+	author.setBooks(books);
+		
+	authors.add(author);
 
-//	/**
-//	 * Test method for {@link org.jefecomp.jpa.dao.impl.GenericDAOImpl#update(java.lang.Object)}.
-//	 */
-//	@Test
-//	public void testUpdate() {
-//		fail("Not yet implemented");
-//	}
-//
-//	/**
-//	 * Test method for {@link org.jefecomp.jpa.dao.impl.GenericDAOImpl#delete(java.lang.Object)}.
-//	 */
-//	@Test
-//	public void testDelete() {
-//		fail("Not yet implemented");
-//	}
+	book.setAuthors(authors);
+		
+	Assert.assertTrue(bookDAO.persist(book));
+		
+    }
+
+    //	/**
+    //	 * Test method for {@link org.jefecomp.jpa.dao.impl.GenericDAOImpl#update(java.lang.Object)}.
+    //	 */
+    //	@Test
+    //	public void testUpdate() {
+    //		fail("Not yet implemented");
+    //	}
+    //
+    //	/**
+    //	 * Test method for {@link org.jefecomp.jpa.dao.impl.GenericDAOImpl#delete(java.lang.Object)}.
+    //	 */
+    //	@Test
+    //	public void testDelete() {
+    //		fail("Not yet implemented");
+    //	}
 
 }
